@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*=============================================
+*            Header Section Start            *
+=============================================*/
+
+
+.banner h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner p{
+    font-size: 16px;
+    color: #444343;
+
+}
+.banner{
+    height: 808px;
+    width: 100%;
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    
+}
+
+.banner-text{
+    width: 494px;
+    text-align: right;
+    position: absolute;
+    left: 845px;
+    top: 216px;
+}
+
+.banner .style-button{
+    padding: 20px 50px;
+    background-color: #F15B22;
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+/*=====  End of Header Section  ======*/
+
+
+/*=============================================
+*            Pre-Years Section Start            *
+=============================================*/
+
+.pre-years{
+    display: flex;
+    height: 984px;
+}
+.half-width{
+    width: 50%;
+    
+}
+
+.pre-img{
+    margin-top: 131px;
+    margin-left: 206px;
+}
+
+.pre-text{
+    margin-top: 370px;
+    margin-left: 87px;
+    margin-right: 322px;
+}
+
+.pre-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.pre-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tick-mark >span, i{
+    margin-top: 8px;
+}
+
+i{
+    color: #00d459;
+}
+
+/*=====  End of Pre-Years Section  ======*/
+
+
+/*=============================================
+*            My Plans Section Start            *
+=============================================*/
+
+.my-plans h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.all-plans{
+    display: flex;
+    justify-content: center;
+}
+
+.plans{
+    margin-left: 109px;
+    text-align: center;
+}
+
+/*=====  End of My Plans Section  ======*/
+
+/*=============================================
+*            My Plans Section Start            *
+=============================================*/
+.call-us-section{
+    display: block;
+}
+.call-us{
+    background-image: url("/images/watch.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    margin-top: 150px;
+}
+
+.gradient{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.call-text{
+    position: absolute;
+    left: 220px;
+}
+.call-text h2{
+    font-size: 40px;
+    width: 459px;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+.call-text a{
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;     
+}
+
+
+
+/*=====  End of My Plans Section  ======*/
+
+/*=============================================
+*            Footer Section Start            *
+=============================================*/
+
+footer{
+    position: absolute;
+    left: ;
+    margin-top: 550px;
+    height: 450px;
+    display: flex;
+    background-color: #000000;
+
+}
+
+.half-resize{
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+.future{
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.half-resize p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.social-icon img{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.subscribe{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sub-text{
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    position: absolute;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;     
+}
+
+/*=====  End of Footer Section  ======*/

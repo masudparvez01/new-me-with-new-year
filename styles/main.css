@@ -45,6 +45,13 @@
     font-weight: 700;
     font-size: 15px;
     border-radius: 5px;
+    transition: .3s;
+}
+
+.banner .style-button:hover{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: 1px solid #F15B22;
 }
 
 
@@ -114,12 +121,16 @@ i{
 .plans{
     margin-left: 109px;
     text-align: center;
+    transition: .2s;
+}
+.plans:hover{
+    transform: scale(1.4);
 }
 
 /*=====  End of My Plans Section  ======*/
 
 /*=============================================
-*            My Plans Section Start            *
+*            Call Section Start            *
 =============================================*/
 .call-us-section{
     display: block;
@@ -164,9 +175,15 @@ i{
     border-radius: 5px;     
 }
 
+.call-text a:hover{
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
 
 
-/*=====  End of My Plans Section  ======*/
+
+/*=====  End of Call Section  ======*/
 
 /*=============================================
 *            Footer Section Start            *
@@ -228,6 +245,11 @@ input[type=email]{
     font-weight: 700;
     font-size: 15px;
     border-radius: 5px;     
+}
+.sub-text:hover{
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: 1px solid black;
 }
 
 /*=====  End of Footer Section  ======*/
